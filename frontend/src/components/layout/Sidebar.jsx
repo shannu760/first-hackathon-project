@@ -41,6 +41,7 @@ export default function Sidebar({ onOpenAiAssistant }) {
     { to: '/resume', label: t('nav_resume'), icon: FileText },
     { to: '/applications', label: t('nav_applications'), icon: Kanban },
     { to: '/notifications', label: 'Deadline Radar', icon: Bell },
+    { to: '/presentation', label: 'Presentation Deck', icon: Sparkles, badge: 'Deck' },
   ];
 
   return (

@@ -18,6 +18,7 @@ import ApplicationsPage from './pages/ApplicationsPage';
 import NotificationsPage from './pages/NotificationsPage';
 import OnboardingPage from './pages/OnboardingPage';
 import { LoginPage, SignupPage, PricingPage, PrivacyPage, TermsPage } from './pages/AuthPages';
+import PresentationDeckPage from './pages/PresentationDeckPage';
 import SaarathiAiAssistant from './components/common/SaarathiAiAssistant';
 
 function ProtectedRoute({ children }) {
@@ -45,6 +46,8 @@ export default function App() {
               <Route path="/login" element={<LoginPage onOpenAiAssistant={() => setAiAssistantOpen(true)} />} />
               <Route path="/signup" element={<SignupPage onOpenAiAssistant={() => setAiAssistantOpen(true)} />} />
               <Route path="/pricing" element={<PricingPage onOpenAiAssistant={() => setAiAssistantOpen(true)} />} />
+              <Route path="/presentation" element={<PresentationDeckPage />} />
+              <Route path="/pitch" element={<PresentationDeckPage />} />
               <Route path="/privacy" element={<PrivacyPage onOpenAiAssistant={() => setAiAssistantOpen(true)} />} />
               <Route path="/terms" element={<TermsPage onOpenAiAssistant={() => setAiAssistantOpen(true)} />} />
               <Route path="/onboarding" element={<ProtectedRoute><OnboardingPage /></ProtectedRoute>} />

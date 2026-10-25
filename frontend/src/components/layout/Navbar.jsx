@@ -47,6 +47,10 @@ export default function Navbar({ onOpenAiAssistant }) {
             <Link to="/pricing" className="text-sm font-medium text-slate-300 hover:text-coral-300 transition-colors">
               {t('nav_pricing')}
             </Link>
+            <Link to="/presentation" className="text-sm font-medium text-coral-400 hover:text-coral-300 transition-colors flex items-center gap-1">
+              <Sparkles className="w-3.5 h-3.5 text-coral-400" />
+              <span>Pitch Deck</span>
+            </Link>
           </div>
 
           {/* Action Area: Language Toggle, AI Assistant, User Auth */}
@@ -129,6 +133,10 @@ export default function Navbar({ onOpenAiAssistant }) {
           <Link to="/schemes" onClick={() => setMobileMenuOpen(false)} className="block text-slate-300 font-medium">{t('nav_schemes')}</Link>
           <Link to="/internships" onClick={() => setMobileMenuOpen(false)} className="block text-slate-300 font-medium">{t('nav_internships')}</Link>
           <Link to="/pricing" onClick={() => setMobileMenuOpen(false)} className="block text-slate-300 font-medium">{t('nav_pricing')}</Link>
+          <Link to="/presentation" onClick={() => setMobileMenuOpen(false)} className="block text-coral-400 font-semibold flex items-center gap-1.5">
+            <Sparkles className="w-3.5 h-3.5 text-coral-400" />
+            <span>Keynote Pitch Deck</span>
+          </Link>
           <div className="pt-4 border-t border-midnight-800 flex flex-col gap-3">
             {user ? (
               <Link

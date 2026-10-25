@@ -45,6 +45,17 @@ app.get('/api/v1/health', (req, res) => {
   });
 });
 
+// Download Presentation PPTX Endpoint
+app.get('/api/v1/presentation/download', (req, res) => {
+  const pptxPath = path.resolve(__dirname, '../../Saarathi_Pitch_Presentation.pptx');
+  if (fs.existsSync(pptxPath)) {
+    res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.presentationml.presentation');
+    res.setHeader('Content-Disposition', 'attachment; filename="Saarathi_Pitch_Presentation.pptx"');
+    return res.sendFile(pptxPath);
+  }
+  return res.status(404).json({ error: 'Presentation file not found' });
+});
+
 // Mount API Modules
 app.use('/api/v1/auth', authRouter);
 app.use('/api/v1/profile', profileRouter);
