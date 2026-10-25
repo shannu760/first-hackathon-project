@@ -1,0 +1,19 @@
+kind: AppHostingYaml
+specVersion: v1alpha1
+runConfig:
+  cpu: 1
+  memoryMiB: 1024
+  minInstances: 0
+  maxInstances: 5
+  concurrency: 80
+env:
+  - variable: PORT
+    value: "5000"
+  - variable: NODE_ENV
+    value: "production"
+  - variable: OPENROUTER_API_KEY
+    value: "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"
+  - variable: OPENROUTER_MODEL
+    value: "openai/gpt-4o"
+  - variable: AI_DEMO_MODE
+    value: "false"

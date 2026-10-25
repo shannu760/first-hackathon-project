@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="wineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C43B43" />
+      <stop offset="50%" stop-color="#921B2F" />
+      <stop offset="100%" stop-color="#350F1C" />
+    </linearGradient>
+    <linearGradient id="coralGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FA947E" />
+      <stop offset="100%" stop-color="#EC7E6F" />
+    </linearGradient>
+  </defs>
+  <!-- Outer Celestial Ring -->
+  <circle cx="50" cy="50" r="44" stroke="url(#wineGrad)" stroke-width="3" stroke-dasharray="4 6" opacity="0.8" />
+  <!-- Guide Astrolabe Diamond / Star -->
+  <polygon points="50,14 62,38 86,50 62,62 50,86 38,62 14,50 38,38" fill="url(#wineGrad)" />
+  <polygon points="50,24 58,42 76,50 58,58 50,76 42,58 24,50 42,42" fill="url(#coralGrad)" opacity="0.9" />
+  <!-- Core Guiding Light -->
+  <circle cx="50" cy="50" r="7" fill="#FFF1EC" />
+</svg>

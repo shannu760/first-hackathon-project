@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-midnight-950 text-slate-100 font-body antialiased selection:bg-wine-600 selection:text-white;
+  }
+}
+
+/* Custom Glass & Glowing Panels */
+.glass-panel {
+  background: rgba(22, 27, 47, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(250, 148, 126, 0.12);
+}
+
+.glass-panel-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-panel-hover:hover {
+  background: rgba(31, 41, 66, 0.85);
+  border-color: rgba(250, 148, 126, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px -10px rgba(146, 27, 47, 0.35);
+}
+
+.glass-wine-card {
+  background: linear-gradient(135deg, rgba(87, 25, 46, 0.6) 0%, rgba(22, 27, 47, 0.85) 100%);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(196, 59, 67, 0.3);
+}
+
+.glow-border {
+  position: relative;
+}
+.glow-border::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(90deg, #921B2F, #FA947E, #921B2F);
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+/* Custom Luxury Gradient Text */
+.gradient-heading {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FA947E 50%, #EC7E6F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-wine {
+  background: linear-gradient(135deg, #FA947E 0%, #C43B43 50%, #921B2F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0F19;
+}
+::-webkit-scrollbar-thumb {
+  background: #333D56;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #74182F;
+}

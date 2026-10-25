@@ -1,0 +1,25 @@
+{
+  "name": "saarathi",
+  "version": "1.0.0",
+  "description": "Saarathi: Production-Oriented AI Student Career Companion",
+  "private": true,
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "dev:backend": "node --watch backend/src/server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test": "cd backend && npm test",
+    "seed": "cd backend && npm run seed",
+    "ai:check": "cd backend && npm run ai:check"
+  },
+  "keywords": [
+    "saarathi",
+    "career-companion",
+    "scholarships",
+    "internships",
+    "threejs",
+    "openrouter-ai"
+  ],
+  "author": "Saarathi Team",
+  "license": "Apache-2.0"
+}

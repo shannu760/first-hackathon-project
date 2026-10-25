@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json.backup
+
+# Python virtual environments & bytecode
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+*/.venv/
+venv/
+*/venv/
+env/
+*/env/
+
+# Environment variables & secrets (CRITICAL)
+.env
+*/.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Local SQLite databases & cache
+*.db*
+*.sqlite*
+backend/saarathi.db*
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local backup copies
+frontend - Copy/
+* - Copy/

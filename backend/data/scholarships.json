@@ -1,0 +1,351 @@
+[
+  {
+    "id": "scheme-pm-usp-01",
+    "title": "Central Sector Scheme of Scholarship (PM-USP)",
+    "provider": "Department of Higher Education, Ministry of Education, Govt. of India",
+    "type": "Scholarship",
+    "description": "Financial assistance for meritorious university and college students from low-income families.",
+    "education_levels": [
+      "UG",
+      "PG"
+    ],
+    "min_marks": 80,
+    "max_income_inr": 450000,
+    "categories": [
+      "All"
+    ],
+    "states": [
+      "All India"
+    ],
+    "required_documents": [
+      "Income Certificate",
+      "Bank Passbook"
+    ],
+    "benefits": [
+      "₹12,000 to ₹20,000 per annum directly via DBT"
+    ],
+    "deadline": "2026-11-30",
+    "official_url": "https://scholarships.gov.in",
+    "source_url": "https://scholarships.gov.in"
+  },
+  {
+    "id": "scheme-aicte-pragati-02",
+    "title": "AICTE Pragati Scholarship for Girl Students",
+    "provider": "All India Council for Technical Education (AICTE)",
+    "type": "Scholarship",
+    "description": "Advancing technical education for girl students admitted in AICTE-approved degree and diploma institutions.",
+    "education_levels": [
+      "UG",
+      "Diploma"
+    ],
+    "min_marks": 60,
+    "max_income_inr": 800000,
+    "categories": [
+      "All"
+    ],
+    "states": [
+      "All India"
+    ],
+    "required_documents": [
+      "Income Certificate",
+      "Bank Passbook",
+      "College Bonafide"
+    ],
+    "benefits": [
+      "₹50,000 per annum towards fees and laptop equipment"
+    ],
+    "deadline": "2026-12-15",
+    "official_url": "https://www.aicte-india.org",
+    "source_url": "https://www.aicte-india.org"
+  },
+  {
+    "id": "scheme-telangana-epass-03",
+    "title": "Telangana ePASS Post-Matric Scholarship & Fee Reimbursement",
+    "provider": "Government of Telangana Welfare Departments",
+    "type": "Fee Reimbursement",
+    "description": "100% Tuition fee reimbursement (RTF) and maintenance allowance (MTF) for Telangana domiciled students.",
+    "education_levels": [
+      "UG",
+      "PG",
+      "Diploma"
+    ],
+    "min_marks": 50,
+    "max_income_inr": 200000,
+    "categories": [
+      "OBC",
+      "SC",
+      "ST",
+      "EWS"
+    ],
+    "states": [
+      "Telangana"
+    ],
+    "required_documents": [
+      "Income Certificate",
+      "Bank Passbook",
+      "Telangana Domicile/Nativity Certificate"
+    ],
+    "benefits": [
+      "100% Tuition Fee Reimbursement + Monthly Maintenance Allowance"
+    ],
+    "deadline": "2026-10-31",
+    "official_url": "https://telanganaepass.cgg.gov.in",
+    "source_url": "https://telanganaepass.cgg.gov.in"
+  },
+  {
+    "id": "b4s-SAT4",
+    "title": "Satya Scholarship Program for Medical Courses 2026",
+    "provider": "Satya Scholarship Program",
+    "type": "Scholarship",
+    "description": "Open to first-year students in 3 to 5 year undergraduate or integrated master's courses in: Medical and Health Sciences: MBBS, BDS, BPT, B.Sc. (Nursing), B.Sc. (Allied and Healthcare) Must have passed Class 12 Board Exam from a recognised board in Punjab with at least 60% aggregate . Students from P...",
+    "education_levels": [
+      "PG",
+      "UG",
+      "School",
+      "Integrated MS"
+    ],
+    "min_marks": 60,
+    "max_income_inr": 800000,
+    "categories": [
+      "All"
+    ],
+    "states": [
+      "All India"
+    ],
+    "required_documents": [
+      "Income Certificate",
+      "Bank Passbook",
+      "Aadhaar Card",
+      "Marksheet",
+      "College Bonafide"
+    ],
+    "benefits": [
+      "100% of the annual course fee coverage as per the approved fee structure of the selected institute, for the full duration of the course (3 to 5 years)"
+    ],
+    "deadline": "2026-10-31",
+    "official_url": "https://www.buddy4study.com/application/SAT4/instruction",
+    "source_url": "https://www.buddy4study.com/scholarship/satya-scholarship-program",
+    "last_verified_at": "2026-10-25T06:58:11.136Z"
+  },
+  {
+    "id": "b4s-SAT3",
+    "title": "Satya Scholarship Program 2026",
+    "provider": "Satya Scholarship Program",
+    "type": "Scholarship",
+    "description": "Open to first-year students in 3 to 5-year undergraduate or integrated master's courses in: Commerce: BBA, B.Com Engineering and Technology: B.Tech, B.E. (all streams), B.Sc. (Engineering), BCA, B.Arch Medical and Health Sciences: MBBS, BDS, BPT, B.Sc. (Nursing), B.Sc. (Allied and Healthcare) Must h...",
+    "education_levels": [
+      "PG",
+      "UG",
+      "School",
+      "Integrated MS"
+    ],
+    "min_marks": 60,
+    "max_income_inr": 800000,
+    "categories": [
+      "All"
+    ],
+    "states": [
+      "All India"
+    ],
+    "required_documents": [
+      "Income Certificate",
+      "Bank Passbook",
+      "Aadhaar Card",
+      "Marksheet",
+      "College Bonafide"
+    ],
+    "benefits": [
+      "100% of the annual course fee coverage as per the approved fee structure of the selected institute, for the full duration of the course (3 to 5 years)"
+    ],
+    "deadline": "2026-08-31",
+    "official_url": "https://www.buddy4study.com/application/SAT3/instruction",
+    "source_url": "https://www.buddy4study.com/scholarship/satya-scholarship-program",
+    "last_verified_at": "2026-10-25T06:58:11.136Z"
+  },
+  {
+    "id": "b4s-SAT2",
+    "title": "Satya Scholarship Program for Medical Courses 2025",
+    "provider": "Satya Scholarship Program",
+    "type": "Scholarship",
+    "description": "Open to students who are currently in their first year of MBBS, BDS, BPT, B.Sc . (Nursing), or B.Sc . (Paramedics) programs, studying at selected colleges or universities in the Ludhiana district ( *List of selected academic institutes is enclosed ). Must have passed Class 12 board exams from Ludhia...",
+    "education_levels": [
+      "School"
+    ],
+    "min_marks": 60,
+    "max_income_inr": 500000,
+    "categories": [
+      "All"
+    ],
+    "states": [
+      "All India"
+    ],
+    "required_documents": [
+      "Income Certificate",
+      "Bank Passbook",
+      "Marksheet",
+      "College Bonafide"
+    ],
+    "benefits": [
+      "Scholarships are for the full duration of the UG courses, including integrated courses of up to 5 years (subject to meeting the renewal criteria). Thi"
+    ],
+    "deadline": "2025-11-22",
+    "official_url": "https://www.buddy4study.com/application/SAT2/instruction",
+    "source_url": "https://www.buddy4study.com/scholarship/satya-scholarship-program",
+    "last_verified_at": "2026-10-25T06:58:11.137Z"
+  },
+  {
+    "id": "b4s-SAT1",
+    "title": "Satya Scholarship Program 2025",
+    "provider": "Satya Scholarship Program",
+    "type": "Scholarship",
+    "description": "Must have passed Class 12 board exams from Ludhiana district with a minimum of 60% marks. Must be a citizen and resident of India. Annual parents' income should not exceed INR 5 Lakh from all sources. In case of orphan students, the guardian&rsquo;s income should also not exceed INR 5 Lakh. Open to ...",
+    "education_levels": [
+      "PG",
+      "UG",
+      "School",
+      "Integrated MS"
+    ],
+    "min_marks": 60,
+    "max_income_inr": 500000,
+    "categories": [
+      "All"
+    ],
+    "states": [
+      "All India"
+    ],
+    "required_documents": [
+      "Income Certificate",
+      "Bank Passbook",
+      "Aadhaar Card",
+      "Marksheet",
+      "College Bonafide"
+    ],
+    "benefits": [
+      "Scholarships are for the full duration of the UG courses, including integrated courses of up to 5 years (subject to meeting the renewal criteria). Eac"
+    ],
+    "deadline": "2025-08-31",
+    "official_url": "https://www.buddy4study.com/application/SAT1/instruction",
+    "source_url": "https://www.buddy4study.com/scholarship/satya-scholarship-program",
+    "last_verified_at": "2026-10-25T06:58:11.137Z"
+  },
+  {
+    "id": "b4s-EBSPS4",
+    "title": "Edumize - Buddy4Study Student Support Initiative - Education Loan Category",
+    "provider": "Edumize-Buddy4Study",
+    "type": "Scholarship",
+    "description": "Applicants must have secured admission to a recognized institution for school, undergraduate, or postgraduate studies (domestic or international). Loans require a co-borrower (parent/guardian) with a regular income source. Applicant must demonstrate ability to repay the loan after completing studies...",
+    "education_levels": [
+      "PG",
+      "UG",
+      "School"
+    ],
+    "min_marks": 60,
+    "max_income_inr": 600000,
+    "categories": [
+      "All"
+    ],
+    "states": [
+      "All India"
+    ],
+    "required_documents": [
+      "Income Certificate",
+      "Marksheet",
+      "College Bonafide"
+    ],
+    "benefits": [
+      "Variable education loan scholarships"
+    ],
+    "deadline": "2025-12-30",
+    "official_url": "https://www.buddy4study.com/education-funding",
+    "source_url": "https://www.buddy4study.com/scholarship/edumize-buddy4study-student-support-initiative",
+    "last_verified_at": "2026-10-25T06:58:11.409Z"
+  },
+  {
+    "id": "b4s-EBSPS1",
+    "title": "Edumize - Buddy4Study Student Support Initiative -  School Scholarships Category",
+    "provider": "Edumize-Buddy4Study",
+    "type": "Scholarship",
+    "description": "Applicant must be studying in Classes 6-12 in a recognized school of India. Applicant&rsquo;s annual family income must be between INR 2.5 lakhs to INR 5 lakhs depending on specific scholarships....",
+    "education_levels": [
+      "School"
+    ],
+    "min_marks": 60,
+    "max_income_inr": 250000,
+    "categories": [
+      "All"
+    ],
+    "states": [
+      "All India"
+    ],
+    "required_documents": [
+      "Income Certificate",
+      "Marksheet",
+      "College Bonafide"
+    ],
+    "benefits": [
+      "Up to INR 20,000"
+    ],
+    "deadline": "2024-11-30",
+    "official_url": "https://www.buddy4study.com/scholarships?filter=eyJSRUxJR0lPTiI6W10sIkdFTkRFUiI6W10sIkVEVUNBVElPTiI6WyIxMDAwMDAwMCIsIjEwIiwiMTEiLCIxMiIsIjE2Il0sIkNPVU5UUlkiOltdLCJDT1VSU0UiOltdLCJTVEFURSI6W10sIkZPUkVJR04iOltdLCJzb3J0T3JkZXIiOiJERUFETElORSJ9",
+    "source_url": "https://www.buddy4study.com/scholarship/edumize-buddy4study-student-support-initiative",
+    "last_verified_at": "2026-10-25T06:58:11.409Z"
+  },
+  {
+    "id": "b4s-EBSPS2",
+    "title": "Edumize - Buddy4Study Student Support Initiative - UG Scholarships Category",
+    "provider": "Edumize-Buddy4Study",
+    "type": "Scholarship",
+    "description": "Applicant must be enrolled in or accepted to an undergraduate program in a recognized institution. Applicants&rsquo; annual family income must not exceed INR 8 lakh per annum (varies by scholarship)....",
+    "education_levels": [
+      "UG"
+    ],
+    "min_marks": 60,
+    "max_income_inr": 800000,
+    "categories": [
+      "All"
+    ],
+    "states": [
+      "All India"
+    ],
+    "required_documents": [
+      "Income Certificate",
+      "Bank Passbook"
+    ],
+    "benefits": [
+      "Up to INR 2,00,000"
+    ],
+    "deadline": "2024-11-30",
+    "official_url": "https://www.buddy4study.com/scholarships?filter=eyJSRUxJR0lPTiI6W10sIkdFTkRFUiI6W10sIkVEVUNBVElPTiI6WyIyMiJdLCJDT1VOVFJZIjpbXSwiQ09VUlNFIjpbXSwiU1RBVEUiOltdLCJGT1JFSUdOIjpbXSwic29ydE9yZGVyIjoiREVBRExJTkUifQ==",
+    "source_url": "https://www.buddy4study.com/scholarship/edumize-buddy4study-student-support-initiative",
+    "last_verified_at": "2026-10-25T06:58:11.409Z"
+  },
+  {
+    "id": "b4s-EBSPS3",
+    "title": "Edumize - Buddy4Study Student Support Initiative - PG Scholarships Category",
+    "provider": "Edumize-Buddy4Study",
+    "type": "Scholarship",
+    "description": "Applicant must be enrolled in or accepted to a postgraduate program in a recognized institution. Applicants&rsquo; annual family income must not exceed INR 8 lakh per annum (varies by scholarship)....",
+    "education_levels": [
+      "PG"
+    ],
+    "min_marks": 60,
+    "max_income_inr": 800000,
+    "categories": [
+      "All"
+    ],
+    "states": [
+      "All India"
+    ],
+    "required_documents": [
+      "Income Certificate",
+      "Bank Passbook"
+    ],
+    "benefits": [
+      "Up to INR 2,00,000"
+    ],
+    "deadline": "2024-11-30",
+    "official_url": "https://www.buddy4study.com/scholarships?filter=eyJSRUxJR0lPTiI6W10sIkdFTkRFUiI6W10sIkVEVUNBVElPTiI6WyIyMyIsIjkxNSJdLCJDT1VOVFJZIjpbXSwiQ09VUlNFIjpbXSwiU1RBVEUiOltdLCJGT1JFSUdOIjpbXSwic29ydE9yZGVyIjoiREVBRExJTkUifQ==",
+    "source_url": "https://www.buddy4study.com/scholarship/edumize-buddy4study-student-support-initiative",
+    "last_verified_at": "2026-10-25T06:58:11.409Z"
+  }
+]
